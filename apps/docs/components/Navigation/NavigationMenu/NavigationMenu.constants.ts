@@ -1580,6 +1580,15 @@ export const platform: NavMenuConstant = {
       ],
     },
     {
+      name: 'Logging and observability',
+      url: undefined,
+      items: [
+        { name: 'Logging', url: '/guides/platform/logs' },
+        { name: 'Metrics', url: '/guides/platform/metrics' },
+        { name: 'Sentry integration', url: '/guides/platform/sentry-integration' },
+      ],
+    },
+    {
       name: 'Platform Management',
       url: undefined,
       items: [
@@ -1594,8 +1603,6 @@ export const platform: NavMenuConstant = {
           name: 'HTTP Status Codes',
           url: '/guides/platform/http-status-codes',
         },
-        { name: 'Logging', url: '/guides/platform/logs' },
-        { name: 'Metrics', url: '/guides/platform/metrics' },
         {
           name: 'Migrating and Upgrading',
           url: '/guides/platform/migrating-and-upgrading-projects',
