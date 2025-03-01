@@ -366,12 +366,16 @@ export const gettingstarted: NavMenuConstant = {
       ],
     },
     {
-      name: 'AI Prompts',
+      name: 'AI Tools',
       url: undefined,
       items: [
         {
-          name: 'Overview',
+          name: 'Prompts',
           url: '/guides/getting-started/ai-prompts',
+        },
+        {
+          name: 'Model context protocol (MCP)',
+          url: '/guides/getting-started/mcp',
         },
       ],
     },
@@ -1102,6 +1106,10 @@ export const database: NavMenuConstant = {
         {
           name: 'Connecting to MSSQL',
           url: '/guides/database/extensions/wrappers/mssql',
+        },
+        {
+          name: 'Connecting to Notion',
+          url: '/guides/database/extensions/wrappers/notion',
         },
         {
           name: 'Connecting to Paddle',
@@ -1943,6 +1951,13 @@ export const local_development: NavMenuConstant = {
       ],
     },
   ],
+}
+
+export const contributing: NavMenuConstant = {
+  icon: 'contributing',
+  title: 'Contributing',
+  url: '/contributing',
+  items: [{ name: 'Overview', url: '/contributing' }],
 }
 
 export const MIGRATION_PAGES: Partial<NavMenuSection & ComponentProps<typeof IconPanel>>[] = [
